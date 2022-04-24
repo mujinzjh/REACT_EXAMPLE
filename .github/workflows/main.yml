@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: 切换目录
-        uses: ./rtb_web
+      # - name: 切换目录
+      #  uses: ./rtb_web
       
       - name: 下载依赖
         run: npm install
